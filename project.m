@@ -1,7 +1,7 @@
 % Bhoovi Chauhan
 % Summer 2023
 % main program to extract notes from audio file
-% input file: FurElise_Slow.mp3
+% input file: Happy_Birthday.mp3
 % relies on plotsound.m file for one (optional) function
 
 %% set up song
@@ -15,7 +15,7 @@ mute = true; % set this to false to hear audio throughout program
 
 [song,Fs] = audioread('Happy Birthday.mp3');
 
-figure, plot(song(:,1)), title('Fur Elise, entire song')
+figure, plot(song(:,1)), title('Happy Birthday, entire song')
 
 % Define desired start and end times (in seconds)
 desired_start_time = 30;  % Replace with your desired start time
